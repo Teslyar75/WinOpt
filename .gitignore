@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Виртуальные окружения
+venv/
+.venv/
+env/
+
+# Логи и отчёты, которые программа создаёт при работе
+*.log
+winopt-report.json
+reports/
+history.jsonl
+disabled.json
+services_changed.json
+startup_files/
+
+# Личные данные: обзор установленных программ на конкретном компьютере
+data/*.csv
+
+# IDE / ОС
+.vscode/
+.idea/
+.cursor/
+Thumbs.db
+desktop.ini
+*.lnk
